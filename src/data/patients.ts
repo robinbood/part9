@@ -1,4 +1,4 @@
-import patients from "../types/patients";
+import { patients } from "../types/patients";
 import { toNewPatientEntry } from "../utils";
 const PatientData:patients[] = [
     {
