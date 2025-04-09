@@ -13,4 +13,5 @@ const addPatients =(entry:newPatientEntry):patients => {
     data.push(newPatientEntry);
     return newPatientEntry;
 };
+const getPatient =() :patients
 export default {getPatients,addPatients};

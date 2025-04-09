@@ -2,7 +2,6 @@ import express, { NextFunction, Request } from "express";
 import { Response } from "express";
 import patientsService from "../services/patientsService";
 import {nonSensitive} from "../types/patients";
-import { toNewPatientEntry } from "../utils";
 import { z } from "zod";
 import { newEntrySchemna } from "../utils";
 import { newPatientEntry,patients } from "../types/patients";
